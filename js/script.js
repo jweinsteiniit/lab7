@@ -7,6 +7,6 @@ window.addEventListener('load', init);
 function nameAlert(){
   var text = document.getElementById('entryinput').value;
   var h2result = document.getElementById('textoutput');
-  h2result.textContent = text;
+  h2result.innerHTML = text;
   alert("Jake Weinstein: "+text);
 }
